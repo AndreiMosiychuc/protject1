@@ -15,7 +15,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Керування бічним меню
 const menuBtn = document.getElementById('menuBtn');
-const navMenu = document.getElementById('.nav-Menu');
+const navMenu = document.getquerySelector('.nav-menu');
 
 if (menuBtn && navMenu) {
     menuBtn.addEventListener('click', () => {
@@ -31,5 +31,6 @@ if (menuBtn && navMenu) {
         });
     });
 }
+
 
 
